@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+}
+
+.menu {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
