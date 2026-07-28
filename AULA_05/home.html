@@ -4,30 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
     <title>Home 🐕</title>
 </head>
 
 <body>
 
     <header>
-        <img src="./img/perfil.png" alt="">
-        <h1>Encontre tudo para o seu pet</h1>
+        <img id="perfil" src="./img/perfil.png" alt="">
+        <h1> Encontre tudo para o seu pet</h1>
         <p>petshop</p>
     </header>
 
-    <input type="text" placeholder="Pesquisar">
+    <div class="pesquisa">
+        <input type="text" placeholder="Pesquisar">
+    </div>
+
 
     <div class="grupo-cards">
-        <div class="card">
+        <div class="card" style="background-image: url('./img/gato.jpg');">
             <p>gatos</p>
         </div>
-        <div class="card">
+        <div class="card" style="background-image: url('./img/cachorro.jpg');">
             <p>cachorros</p>
         </div>
-        <div class="card">
+        <div class="card" style="background-image: url('./img/ave.png');">
             <p>aves</p>
         </div>
-        <div class="card">
+        <div class="card" style="background-image: url(./img/peixe.png);">
             <p>peixes</p>
         </div>
     </div>
