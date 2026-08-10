@@ -90,12 +90,13 @@ header p {
     width: 50%;
     text-align: center;
 }
-.anuncio-le p{
+
+.anuncio-le p {
     font-size: 40px;
     font-weight: bold;
 }
 
-.anuncio-le button{
+.anuncio-le button {
     font-size: 40px;
     background-color: black;
     color: white;
@@ -109,8 +110,95 @@ header p {
     width: 50%;
     height: 80%;
     background-image: url('./img/gato_laranja.jpg');
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
     border-radius: 70px;
     margin: 20px;
+}
+
+.grupo-dicas {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.dicas-le {
+    width: 50%;
+}
+
+.dicas-le h1 {
+    font-size: 41px;
+    font-weight: bold;
+}
+
+.dicas-le p {
+    font-size: 28px;
+    color: #5C5C5C;
+    margin-top: 50px;
+}
+
+.dicas-le span {
+    font-weight: bold;
+}
+
+.dicas-ld img {
+    width: 684px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.grupo-assinar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupo-assinar input {
+    height: 50px;
+    width: 500px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 24px;
+    padding-left: 10px;
+    color: white;
+}
+
+.grupo-assinar button{
+    height: 50px;
+    width: 200px;
+    background-color: #EBC154;
+    font-size: 24px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.menu-rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-itens ul{
+    display: flex;
+}
+
+.menu-itens li{
+    margin-left: 20px;
+    list-style-type: none;
 }
