@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOGO DA VELHA</title>
+    <style>
+        button {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Jogo da velha # </h1>
+    <p id="total_de_jogadas">Total de jogadas: 0 </p>
+    <p id="total_o">Total de vitorias O : 0 </p>
+    <p id="total_x">Total de vitorias X : 0 </p>
+
+    <button id="1" onclick="jogar('1')" 4></button>
+    <button id="2" onclick="jogar('2')"></button>
+    <button id="3" onclick="jogar('3')"></button>
+    <br>
+    <button id="4" onclick="jogar('4')"></button>
+    <button id="5" onclick="jogar('5')"></button>
+    <button id="6" onclick="jogar('6')"></button>
+    <br>
+    <button id="7" onclick="jogar('7')"></button>
+    <button id="8" onclick="jogar('8')"></button>
+    <button id="9" onclick="jogar('9')"></button>
+
+    <br>
+    <button onclick="limparJogo()" style="width: 150px;">RENICIAR JOGADA</button>
+
+    <script src="./script.js"></script>
+
+</body>
+
+
+</html>
